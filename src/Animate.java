@@ -25,7 +25,7 @@ public class Animate extends JPanel implements ActionListener { //Runs all other
 
             g.fillOval((int)x,(int)y,(int)size,(int)size);
         }
-        tm.start(); //Starts timer which allows us to animate out cBodies
+        tm.start(); //Starts timer which animates the cBodies
     }
 
 
